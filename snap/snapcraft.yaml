@@ -22,6 +22,7 @@ parts:
     source: https://github.com/hyprwm/hyprlang
     source-tag: v0.5.2
     source-type: git
+    source-depth: 1
     plugin: cmake
     build-attributes:
       - enable-patchelf
@@ -33,6 +34,7 @@ parts:
     source: https://github.com/hyprwm/hyprutils
     source-tag: v0.2.0
     source-type: git
+    source-depth: 1
     plugin: cmake
     build-attributes:
       - enable-patchelf
@@ -44,6 +46,7 @@ parts:
     source: https://github.com/hyprwm/hyprwayland-scanner
     source-tag: v0.4.0
     source-type: git
+    source-depth: 1
     plugin: cmake
     build-attributes:
       - enable-patchelf
@@ -60,6 +63,7 @@ parts:
     source: https://github.com/hyprwm/hyprcursor
     source-tag: v0.1.9
     source-type: git
+    source-depth: 1
     plugin: cmake
     build-attributes:
       - enable-patchelf
@@ -79,6 +83,7 @@ parts:
     source: https://gitlab.freedesktop.org/xorg/lib/libxcb-errors.git
     source-tag: xcb-util-errors-1.0.1
     source-type: git
+    source-depth: 1
     plugin: autotools
     build-attributes:
       - enable-patchelf
@@ -91,6 +96,7 @@ parts:
     source: https://gitlab.freedesktop.org/wayland/wayland-protocols.git
     source-tag: '1.36'
     source-type: git
+    source-depth: 1
     plugin: meson
     build-attributes:
       - enable-patchelf
@@ -113,6 +119,7 @@ parts:
 # endext
     source-tag: v0.41.2
     source-type: git
+    source-depth: 1
     plugin: cmake
     cmake-generator: Ninja
     cmake-parameters:
