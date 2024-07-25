@@ -1,0 +1,4 @@
+#! /bin/bash -e
+
+mkdir -p /usr/share/wayland-sessions
+cp $SNAP/usr/share/wayland-sessions/hyprland.desktop /usr/share/wayland-sessions
