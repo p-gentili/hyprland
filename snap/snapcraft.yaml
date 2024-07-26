@@ -67,7 +67,7 @@ parts:
     build-packages:
       - libpugixml-dev
     stage-packages:
-      - libpugixml-dev
+      - libpugixml1v5
 
   hyprcursor:
     after: 
@@ -91,9 +91,9 @@ parts:
       - librsvg2-dev
       - libtomlplusplus-dev
     stage-packages:
-      - libzip-dev
-      - librsvg2-dev
-      - libtomlplusplus-dev
+      - libzip4t64
+      - librsvg2-2
+      - libtomlplusplus3t64
 
   libxcb-errors:
     source: https://gitlab.freedesktop.org/xorg/lib/libxcb-errors.git
@@ -206,17 +206,18 @@ parts:
       - xdg-desktop-portal-wlr
       - xwayland
     stage-packages:
-      - libdisplay-info-dev
-      - libegl-dev
-      - libegl1-mesa-dev
-      - libgbm-dev
-      - libinput-dev
-      - libliftoff-dev
-      - libseat-dev
-      - libwayland-dev
-      - libxcb-composite0-dev
-      - libxcb-icccm4-dev
-      - libxcb-res0-dev
+      - libdisplay-info1
+      - libegl1
+      - libwayland-client0
+      - libxcb-xfixes0
+      - libgbm1
+      - libinput10
+      - libliftoff0
+      - libseat1
+      - libgles2
+      - libxcb-composite0
+      - libxcb-icccm4
+      - libxcb-res0
     override-pull: |
       craftctl default
       craftctl set version=$(git describe --tags | sed 's/v//')
