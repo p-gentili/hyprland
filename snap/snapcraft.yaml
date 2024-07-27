@@ -203,12 +203,13 @@ parts:
       - seatd
       - vulkan-validationlayers
       - wget
-      - xdg-desktop-portal-wlr
+      - xdg-desktop-portal
       - xwayland
     stage-packages:
       - libdisplay-info1
       - libegl1
       - libwayland-client0
+      - libwayland-server0
       - libxcb-xfixes0
       - libgbm1
       - libinput10
