@@ -114,7 +114,7 @@ parts:
   # Ubuntu package doesn't include tablet-v2.xml
   wayland-protocols:
     source: https://gitlab.freedesktop.org/wayland/wayland-protocols.git
-    source-tag: '1.36'
+    source-tag: '1.37'
 # ext:updatesnap
 #   version-format:
 #     format: '%M.%m'
