@@ -137,7 +137,7 @@ parts:
       - libxcb-errors
       - wayland-protocols
     source: https://github.com/hyprwm/Hyprland
-    source-tag: 'v0.42.0'
+    source-tag: 'v0.43.0'
 # ext:updatesnap
 #   version-format:
 #     format: 'v%M.%m.%R'
