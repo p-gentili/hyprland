@@ -20,7 +20,7 @@ apps:
 parts:
   hyprlang:
     source: https://github.com/hyprwm/hyprlang
-    source-tag: v0.5.2
+    source-tag: 'v0.5.3'
 # ext:updatesnap
 #   version-format:
 #     format: 'v%M.%m.%R'
