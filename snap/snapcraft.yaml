@@ -73,7 +73,7 @@ parts:
     after: 
     - hyprlang
     source: https://github.com/hyprwm/hyprcursor
-    source-tag: 'v0.1.10'
+    source-tag: 'v0.1.11'
 # ext:updatesnap
 #   version-format:
 #     format: 'v%M.%m.%R'
