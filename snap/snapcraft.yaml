@@ -52,7 +52,7 @@ parts:
 
   hyprwayland-scanner:
     source: https://github.com/hyprwm/hyprwayland-scanner
-    source-tag: 'v0.4.2'
+    source-tag: 'v0.4.4'
 # ext:updatesnap
 #   version-format:
 #     format: 'v%M.%m.%R'
