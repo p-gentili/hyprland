@@ -36,7 +36,7 @@ parts:
 
   hyprutils:
     source: https://github.com/hyprwm/hyprutils
-    source-tag: 'v0.5.0'
+    source-tag: 'v0.5.1'
 # ext:updatesnap
 #   version-format:
 #     format: 'v%M.%m.%R'
